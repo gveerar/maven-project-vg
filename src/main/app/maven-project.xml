@@ -18,7 +18,7 @@ http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/cu
 http://www.mulesoft.org/schema/mule/json http://www.mulesoft.org/schema/mule/json/current/mule-json.xsd
 http://www.mulesoft.org/schema/mule/jms http://www.mulesoft.org/schema/mule/jms/current/mule-jms.xsd">
 
-	<http:listener-config name="HTTPListener8081" host="0.0.0.0" port="8081" doc:name="HTTP Listener Configuration" />
+	<http:listener-config name="HTTPListener8081" host="0.0.0.0" port="8704" doc:name="HTTP Listener Configuration" />
 
 	<db:derby-config name="Derby_Configuration" url="jdbc:derby:memory:muleEmbeddedDB;create=true" doc:name="Derby Configuration" />
 
