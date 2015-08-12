@@ -165,12 +165,6 @@
 			<version>${derby.version}</version>
 		</dependency>
 		<dependency>
-    		<groupId>org.apache.activemq</groupId>
-    		<artifactId>activemq-all</artifactId>
-    		<version>${activemq.version}</version>
-		<scope>provided</scope>
-		</dependency>
-		<dependency>
             <groupId>org.mule.munit</groupId>
             <artifactId>munit-assert</artifactId>
             <version>${munit.version}</version>
